@@ -8,8 +8,8 @@
 /*Une valeur est un morceau d'information utilisé dans un programme informatique. Les valeurs existent sous différentes formes, appelées des types. Le type d'une valeur  détermine l'oppération qu'il lui est affecté c'est à dire. */
 /* ---- ------ ---- ---- ---- ---- ----  ---- Syntaxe . js --- --- --- --- --- --- --- --- --- --- --- -- 
  Chaque instructions doivent se terminer par un ; 
-exemple: alet(Hello Word);
- Le nom  des  variables  commences toujours par une majuscule  var lundi:  ≠ var Lundi; 
+exemple: alert(Hello Word);
+ Le nom  des  variables  commencent toujours par une majuscule  var lundi:  ≠ var Lundi; 
 */
 var x = 24;
 var X = 42
@@ -22,6 +22,19 @@ var ville = "Toulouse";
 var dpt = "LRMP";
 console.log(age);
 console.log(prenom);
-console.log(X / y);
-// -- -- -- -- -- -- -- -- -- --  Alors qu'est ce qu'une variable -- -- -- -- -- -- -- -- 
-// Une variable est un espace de stockage  dans laqu
+console.log(dpt);
+console.log((X + y) % 42);
+//il est aussi possible d'écrire  une chaîne de caratère sur plusieurs ligne (string) comme suit//
+var muultilines = ("OMG je suis sur \nsur plusieurs lignes");
+console.log(muultilines);
+// CON-CA-TE-NATION
+var conc = ("con" + "ca" + "te" + "nation");
+console.log(conc);
+// type de valeurs
+console.log(typeof (nom));
+console.log(typeof (dpt));
+console.log(typeof (age));
+// ------------ Les Booléens ----------
+// true false
+console.log(nom > age);
+console.log(y >= x);
